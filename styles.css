@@ -89,16 +89,26 @@ p {
 .dark-theme .form-textarea {
   /* TODO: Add dark theme form control styles */
   /* HINT: Use background-color, color, and border-color */
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border-color: #444;
 }
 
 .dark-theme .table th {
   /* TODO: Add dark theme table header styles */
   /* HINT: Use background-color */
+  background-color: #2a2a2a;
+  color: #eaeaea;
+  border-bottom: 1px solid #444;
 }
 
 .dark-theme .code-editor {
   /* TODO: Add dark theme code editor styles */
   /* HINT: Use background-color */
+  background-color: #121212;
+  color: #e0e0e0;
+  border: 1px solid #333;
+  font-family: 'Source Code Pro', monospace;
 }
 
 /* Card Styles */

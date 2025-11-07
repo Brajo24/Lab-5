@@ -227,26 +227,44 @@ p {
 .chips-container {
   /* TODO: Add chips container styles */
   /* HINT: Use display, flex-wrap, gap, and margin */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
 }
 
 .chip {
   /* TODO: Add chip styles */
   /* HINT: Use display, align-items, padding, background-color, border-radius, font-size, color, and cursor */
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #333;
+  cursor: pointer;
 }
 
 .chip.active {
   /* TODO: Add active chip styles */
   /* HINT: Change background-color and color */
+  background-color: #007bff;
+  color: #fff;
 }
 
 .chip i {
   /* TODO: Add icon styles within chips */
   /* HINT: Use margin-right */
+  margin-right: 6px;
 }
 
 .chip .close {
   /* TODO: Add close button styles within chips */
   /* HINT: Use margin-left, cursor, and font-weight */
+  margin-left: 8px;
+  cursor: pointer;  
+  font-weight: bold;
 }
 
 /* Slider Styles */

@@ -166,41 +166,61 @@ p {
 .btn {
   /* TODO: Add button styles */
   /* HINT: Use display, padding, background-color, color, border, border-radius, cursor, transition */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease,
+              transform 0.15s ease;
 }
 
 .btn:hover {
   /* TODO: Add button hover styles */
   /* HINT: Change background-color */
+  background-color: #0056b3;
+  transform: translateY(-2px);
 }
 
 .btn-success {
   /* TODO: Add success button styles */
   /* HINT: Change background-color */
+  background-color: #28a745;
 }
 
 .btn-warning {
   /* TODO: Add warning button styles */
   /* HINT: Change background-color */
+  background-color: #ffc107;
 }
 
 .btn-info {
   /* TODO: Add info button styles */
   /* HINT: Change background-color */
+  background-color: #17a2b8;
 }
 
 .btn-outline {
   /* TODO: Add outline button styles */
   /* HINT: Transparent background with border and specific text color */
+  background-color: transparent;
+  border: 2px solid #007bff;
 }
 
 .btn-outline:hover {
   /* TODO: Add hover styles for outline button */
   /* HINT: Change background-color and text color */
+  background-color: #007bff;
+  color: #fff;
 }
 
 .btn-group {
   /* TODO: Add button group styles */
   /* HINT: Use display and gap */
+  display: inline-flex;
+  gap: 8px;
 }
 
 /* Chip Styles */
